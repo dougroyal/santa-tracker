@@ -16,7 +16,7 @@ def main():
     # north_poll_img = pygame.image.load(north_poll_img_path)
     ship = pygame.image.load(north_poll_img_path)
 
-    screen = pygame.display.set_mode((320, 240))
+    screen = pygame.display.set_mode((320, 240), pygame.FULLSCREEN)
     ship_top = screen.get_height() - ship.get_height()
     ship_left = screen.get_width()/2 - ship.get_width()/2
 
