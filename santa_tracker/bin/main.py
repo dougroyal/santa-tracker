@@ -12,7 +12,7 @@ def main():
 
     pygame.init()
 
-    north_poll_img_path = pkg_resources.resource_filename('santa_tracker', join('data', 'north_poll.jpg'))
+    north_poll_img_path = pkg_resources.resource_filename('santa_tracker', join('data', 'north_poll.bmp'))
     # north_poll_img = pygame.image.load(north_poll_img_path)
     ship = pygame.image.load(north_poll_img_path)
 
