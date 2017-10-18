@@ -1,0 +1,14 @@
+.idea/
+*.pyc
+*.egg-info
+*~
+.cache/
+.tox
+build/
+dist/
+docs/
+development.ini
+dev.ini
+prod.ini
+stage.ini
+.DS_Store
